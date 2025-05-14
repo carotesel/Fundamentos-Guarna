@@ -1,0 +1,36 @@
+pip install libreria
+
+import libreria
+
+- os: funciones para interactuar con el sistema operativo
+- CSV
+- math
+- random
+- datetime
+
+avanzadas:
+- tkinter
+- numpy
+- matplotlib
+
+USAMOS LA LIBRERIA TKINDER -> puente entre python y el sistema operativo
+
+construimos una ventana
+- adentro un frame con widgets
+
+frame size fijo
+
+Opción       | Descripción
+-------------|-----------------------------------------------------------
+Text         | Texto que se muestra en el Label
+Anchor       | Controla la posición del texto si hay espacio suficiente para él (center por defecto)
+Bg           | Color de fondo
+Bitmap       | Mapa de bits que se mostrará como gráfico
+Bd           | Grosor del borde (2 px por defecto)
+Font         | Tipo de fuente a mostrar
+Fg           | Color de la fuente
+Width        | Ancho de Label en caracteres (no en píxeles)
+Height       | Altura de Label en caracteres (no en píxeles)
+Image        | Muestra imagen en el Label en lugar de texto
+Justify      | Justificación del texto del Label
+
