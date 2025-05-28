@@ -27,7 +27,6 @@ def validar_mail(cadena):
     return es_valido
 
 
-
 LabelNombre = Label(myFrame, text="Nombre:").grid(row=0, column=0, sticky="w", padx=10, pady=10)
 cuadroNombre = Entry(myFrame, textvariable=mi_nombre)
 cuadroNombre.grid(row=0,column=1, padx=10, pady=10)
@@ -59,7 +58,6 @@ def enviar_form():
     hecho_por.set(f"Hecho por: {mi_nombre.get()} {mi_apellido.get()}")
 
     messagebox.showinfo("Éxito", "Los datos fueron recibidos correctamente.")
-
 
     # Limpiar los campos
     mi_nombre.set("")
