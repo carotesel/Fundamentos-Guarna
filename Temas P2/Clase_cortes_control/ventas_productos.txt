@@ -1,0 +1,13 @@
+1,lapicera,3
+1,cuaderno,2
+1,regla,7
+2,lapicera,8
+2,cuaderno,4
+3,cuaderno,9
+3,lapicera,4
+3,regla,1
+4,cuaderno,6
+5,regla,5
+6,cuaderno,8
+7,lapicera,10
+8,regla,3

@@ -1,0 +1,19 @@
+dia,vendedor,producto,importe
+1,Rodriguez Carlos,Notebook,45000
+1,Gomez Ana,Mouse,1200
+1,Rodriguez Carlos,Teclado,3500
+2,Lopez Maria,Monitor,25000
+2,Gomez Ana,Notebook,47000
+2,Rodriguez Carlos,Mouse,800
+3,Lopez Maria,Teclado,3000
+3,Gomez Ana,Monitor,27000
+3,Rodriguez Carlos,Notebook,48000
+3,Gomez Ana,Mouse,1500
+4,Lopez Maria,Notebook,50000
+4,Gomez Ana,Teclado,3200
+4,Rodriguez Carlos,Monitor,22000
+5,Lopez Maria,Mouse,1000
+5,Gomez Ana,Notebook,49000
+5,Rodriguez Carlos,Monitor,24000
+5,Lopez Maria,Teclado,3100
+5,Gomez Ana,Mouse,1300

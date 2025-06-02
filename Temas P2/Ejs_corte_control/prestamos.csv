@@ -1,0 +1,16 @@
+mes,libro,apellido_nombre,dias_prestamo
+1,El Quijote,Martinez Ana,15
+1,Cien años de soledad,Garcia Luis,7
+1,El Quijote,Lopez Pedro,21
+1,Ficciones,Suarez Marta,12
+2,Rayuela,Martinez Ana,14
+2,Don Quijote,Gonzalez Maria,3
+2,Cien años de soledad,Garcia Luis,9
+2,Rayuela,Lopez Pedro,5
+2,Ficciones,Suarez Marta,10
+3,Don Quijote,Garcia Luis,2
+3,Rayuela,Martinez Ana,13
+3,Cien años de soledad,Gonzalez Maria,8
+3,Ficciones,Suarez Marta,11
+3,El Aleph,Garcia Luis,6
+3,El Quijote,Lopez Pedro,19

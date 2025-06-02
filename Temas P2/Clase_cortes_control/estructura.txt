@@ -1,0 +1,5 @@
+2 funciones:
+- lectura
+- corte de control
+
+pensar cada corte como lo que cambia en el archivo: ej cambia el dia etc

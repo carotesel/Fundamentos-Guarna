@@ -1,0 +1,16 @@
+semana,producto,tipo_movimiento,cantidad
+1,Laptop Dell,entrada,20
+1,Mouse Logitech,salida,15
+1,Laptop Dell,salida,5
+2,Teclado HP,entrada,30
+2,Mouse Logitech,entrada,25
+3,Laptop Dell,entrada,15
+3,Mouse Logitech,salida,10
+3,Teclado HP,entrada,20
+3,Teclado HP,entrada,10
+4,Laptop Dell,salida,5
+4,Mouse Logitech,entrada,20
+4,Teclado HP,salida,10
+4,Laptop Dell,entrada,25
+5,Mouse Logitech,salida,5
+5,Teclado HP,salida,10

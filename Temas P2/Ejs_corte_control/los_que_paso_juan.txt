@@ -1,0 +1,102 @@
+Ejercicio 1: Sistema de Biblioteca
+
+Se tiene un archivo prestamos.csv con el siguiente formato:
+mes,libro,apellido_nombre,dias_prestamo
+Ejemplo:
+
+1,El Quijote,Martinez Ana,15
+1,Cien años de soledad,Garcia Luis,7
+1,El Quijote,Lopez Pedro,21
+2,Rayuela,Martinez Ana,14
+2,Don Quijote,Gonzalez Maria,3
+...
+Se pide:
+
+Recorriendo una sola vez el archivo y sin cargarlo completamente en memoria, realizar un corte de control indicando: cantidad de libros prestados mensualmente y dentro de cada mes, cantidad de préstamos y promedio de días.
+Realizar una nueva lectura del archivo y armar un diccionario donde la clave será el nombre del lector y el dato será una lista de longitud 2: libros prestados, días totales de préstamo.
+En base al diccionario, crear un listado ordenado de mayor a menor por días totales de préstamo, indicando: lector - días totales. No incluir lectores con menos de 10 días totales.
+
+
+
+Ejercicio 2:
+Se maneja un archivo inventario.csv con movimientos de stock:
+semana,producto,tipo_movimiento,cantidad
+
+Ejemplo:
+4
+1,Laptop Dell,entrada,20
+1,Mouse Logitech,salida,15
+1,Laptop Dell,salida,5
+2,Teclado HP,entrada,30
+2,Mouse Logitech,entrada,25
+...
+Se pide:
+
+Hacer un corte de control por semana indicando: cantidad de movimientos semanales y dentro de cada movimiento, cantidad de entradas y salidas.
+Crear un diccionario con clave=producto y valor=[stock_actual, movimientos_totales]. Las entradas suman, las salidas restan.
+Generar un listado ordenado de menor a mayor por stock actual, mostrando: producto - stock actual. Excluir productos con stock negativo.
+
+
+
+Ejercicio 3:
+Un comercio registra sus ventas en ventas.csv:
+
+
+dia,vendedor,producto,importe
+Ejemplo:
+1,Rodriguez Carlos,Notebook,45000
+1,Gomez Ana,Mouse,1200
+1,Rodriguez Carlos,Teclado,3500
+2,Lopez Maria,Monitor,25000
+2,Gomez Ana,Notebook,47000
+...
+Se pide:
+
+Corte de control por día mostrando: total de ventas diarias y dentro de cada día, cantidad de transacciones e importe promedio.
+Diccionario con clave=vendedor y valor=[ventas_realizadas, importe_total].
+Ranking de vendedores ordenado de mayor a menor por importe total, formato: vendedor - importe total. Solo mostrar vendedores con más de $50000 en ventas.
+
+
+
+
+
+Ejercicio 4:
+Se registran calificaciones en calificaciones.csv:
+cuatrimestre,materia,apellido_nombre,nota
+
+Ejemplo:
+1,Física,Martinez Rosa,6
+1,Historia,Gomez Ana,7
+1,Matemática,Lopez Ana,9
+1,Matemática,Perez Juan,8
+1,Química,Ramirez Jorge,5
+2,Biología,Torres Pablo,6
+2,Física,González Pedro,5
+2,Historia,Gomez Ana,8
+2,Química,Perez Juan,7
+...
+Se pide:
+
+Corte de control por cuatrimestre indicando: cantidad de exámenes por cuatrimestre y dentro de cada cuatrimestre, cantidad de aprobados (≥6) y reprobados.
+Diccionario con clave=estudiante y valor=[materias_cursadas, promedio_general].
+Lista de estudiantes ordenada de mayor a menor promedio, mostrando: estudiante - promedio. Solo incluir estudiantes con promedio ≥7.
+
+
+
+Ejercicio 5:
+Se registran viajes en viajes.csv:
+
+dia,linea,chofer,pasajeros
+Ejemplo:
+
+1,Línea A,Morales Carlos,45
+1,Línea B,Ruiz Ana,32
+1,Línea A,Fernandez Luis,38
+2,Línea C,Morales Carlos,42
+2,Línea B,Diaz Maria,29
+...
+Se pide:
+
+Corte de control por día mostrando: viajes totales diarios y dentro de cada día, cantidad de viajes y promedio de pasajeros.
+Diccionario con clave=chofer y valor=[viajes_realizados, total_pasajeros_transportados].
+Ranking de choferes ordenado de mayor a menor por total de pasajeros, formato: chofer - total pasajeros. Excluir choferes con menos de 100 pasajeros totales.
