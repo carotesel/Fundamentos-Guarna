@@ -1,0 +1,66 @@
+### Parcial 1
+
+### A)
+
+Se tienen los resultados de la Eurocopa y la Copa América en dos archivos de texto 
+con formato `.csv`, llamados `europa.csv` y `copa_america.csv`. 
+
+Estos archivos tienen en cada línea, el resultado de un partido. Los campos son:
+
+día,equipo_local,goles_local,equipo_visitante,goles_visitante
+
+
+Los archivos se guardaron en forma secuencial, comenzando desde el día 1 
+del campeonato, por lo que están ordenados por día.
+
+Ejemplo:
+
+1,Alemania,5,Escocia,1
+2,Hungría,1,Suiza,3
+2,España,3,Croacia,0
+3,Italia,2,Albania,1
+
+---
+
+Se pide realizar un programa modular (compuesto por funciones), en Python que:
+
+1. Recorriendo una sola vez los dos archivos y sin cargarlos completamente 
+en memoria, los unifique (merge) en un único archivo ordenado por día, 
+manteniendo el orden original y agregando un campo que indique de qué archivo 
+es la línea que se está escribiendo(`EUROCOPA` o `COPA_AMERICA`),
+ante igualdad de dia guardar en primer lugar los de `EUROCOPA`.
+
+2. Realizando una lectura del archivo generado en el punto anterior, 
+arme un diccionario en donde la clave será el país y el dato sera una lista 
+de longitud 3: partidos ganados, empatados y perdidos. 
+
+3. En base al diccionario generado en el punto 2 mostrar por pantalla 
+un listado, ordenado de mayor a menor por cantidad de partidos ganados, 
+indicando: país, partidos ganados. 
+
+Este listado no deberá figurar los países que no ganaron ningún partido.
+
+---
+
+IMPORTANTE: Respetar las buenas prácticas recomendadas en el PEP de la cátedra: nombres, modularización, etc.
+
+---
+
+### B)
+
+Definir una función pertenece, recursiva en C que reciba un vector de enteros 
+por parámetro, su tamaño y un valor entero v, y devuelva 1 si dicho valor 
+está en el vector, 0 en caso contrario.
+
+int pertenece(int vec[], int n, int valor);
+
+
+---
+
+### C)
+
+Dado el siguiente vector, indicar cómo queda luego de dos ciclos del método 
+de ordenamiento seleccion, indicando brevemente cuáles son 
+los pasos que se realizan. Indicar cual es el orden del algoritmo.
+
+[5, 8, 11, 13, 2, 2, 6, 7, 15, 9, 16]

@@ -1,0 +1,10 @@
+101,50,prov_a
+101,52,prov_b
+102,75,prov_a
+102,70,prov_b
+103,60,prov_a
+104,80,prov_a
+105,55,prov_a
+106,65,prov_b
+107,90,prov_b
+108,45,prov_b

@@ -1,0 +1,10 @@
+1,1984,biblioA
+2,Rayuela,biblioA
+2,Crimen y castigo,biblioB
+3,El Aleph,biblioA
+3,Don Quijote,biblioB
+4,Ficciones,biblioA
+5,La Metamorfosis,biblioB
+6,Cien años de soledad,biblioA
+6,El Túnel,biblioB
+7,Bajo la misma estrella,biblioB

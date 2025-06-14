@@ -1,0 +1,11 @@
+1,Alemania,5,Escocia,1,EUROCOPA
+1,Brasil,3,Perú,1,COPA AMERICA
+2,Hungría,1,Suiza,3,EUROCOPA
+2,España,3,Croacia,0,EUROCOPA
+2,Argentina,2,Chile,2,COPA AMERICA
+3,Italia,2,Albania,1,EUROCOPA
+3,Uruguay,1,Colombia,2,COPA AMERICA
+4,Francia,2,Austria,2,EUROCOPA
+4,Ecuador,0,Paraguay,1,COPA AMERICA
+5,Portugal,1,Bélgica,0,EUROCOPA
+5,México,2,Estados Unidos,3,COPA AMERICA

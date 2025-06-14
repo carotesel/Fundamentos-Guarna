@@ -1,0 +1,10 @@
+1,23,estacion_1
+1,22,estacion_2
+2,25,estacion_1
+3,24,estacion_2
+4,21,estacion_1
+4,20,estacion_2
+5,22,estacion_1
+6,23,estacion_2
+7,24,estacion_1
+7,25,estacion_2

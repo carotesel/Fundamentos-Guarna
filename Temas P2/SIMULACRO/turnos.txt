@@ -1,0 +1,10 @@
+1,Ana Lopez,08:00,Produccion,entrada
+1,Lucas Pérez,08:15,Administracion,entrada
+1,Ana Lopez,17:00,Produccion,salida
+2,Ana Lopez,08:00,Produccion,entrada
+2,Lucas Pérez,17:10,Administracion,salida
+3,Lucas Pérez,08:10,Administracion,entrada
+3,Ana Lopez,17:05,Produccion,salida
+4,Lucas Pérez,17:00,Administracion,salida
+5,Ana Lopez,08:05,Produccion,entrada
+5,Lucas Pérez,17:05,Administracion,salida

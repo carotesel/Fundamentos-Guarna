@@ -1,0 +1,72 @@
+### C)
+
+Indicar paso a paso cómo sería el funcionamiento del algoritmo de 
+búsqueda binaria, aplicado al siguiente arreglo:
+
+[0, 7, 8, 13, 25, 40], siendo el valor a buscar 27.
+
+-----
+
+la busqueda binaria arranca por la mitad del vector, en este caso al tener 6 items, 
+la mitad del vector es el elemento en la tercera posicion. compara el valor con 
+vec[2] y al ser el valor mas grande que 8, toma la mitad derecha del vector,
+es decir, [13, 25, 40].
+
+sobre esta mitad busca otra vez la mitad del vector, y al ser 3 los nros que contiene, 
+toma el del medio, es decir vec[4], al ser 27 mayor al numero en esa posicion, toma 
+la mitad derecha del vector, que en este caso es solo un numero.
+
+vuelve a comparar el valor con vec[5], y al ser este menor a valor buscado, puede afirmar 
+que el numero no se encuentra en el vector. 
+
+CORREGIDO:
+
+Tu redacción está bien conceptualmente, pero hay algunos detalles que se pueden mejorar para mayor precisión y claridad. Aquí te doy una versión mejorada:
+
+---
+
+### C) Búsqueda binaria paso a paso
+
+**Vector:** [0, 7, 8, 13, 25, 40]  
+**Valor a buscar:** 27
+
+**Paso 1:**
+- Rango de búsqueda: índices 0 a 5 (todo el vector)
+- Índice medio: (0 + 5) / 2 = 2
+- Elemento medio: vec[2] = 8
+- Comparación: 27 > 8, por lo tanto buscamos en la mitad derecha
+- Nuevo rango: índices 3 a 5
+
+**Paso 2:**
+- Rango de búsqueda: índices 3 a 5 → [13, 25, 40]
+- Índice medio: (3 + 5) / 2 = 4
+- Elemento medio: vec[4] = 25
+- Comparación: 27 > 25, por lo tanto buscamos en la mitad derecha
+- Nuevo rango: índices 5 a 5
+
+**Paso 3:**
+- Rango de búsqueda: índice 5 → [40]
+- Índice medio: 5
+- Elemento medio: vec[5] = 40
+- Comparación: 27 < 40, por lo tanto buscaríamos en la mitad izquierda
+- Nuevo rango: índices 5 a 4 (rango inválido)
+
+**Conclusión:** Como el rango se volvió inválido (inicio > fin), el algoritmo termina y concluye que el valor 27 no se encuentra en el vector.
+
+---
+
+**Mejoras aplicadas:**
+1. **Precisión en índices:** Especifiqué claramente los índices en cada paso
+2. **Cálculo del medio:** Mostré la fórmula (inicio + fin) / 2
+3. **Rangos específicos:** Indiqué exactamente qué porción del vector se considera en cada paso
+4. **Condición de parada:** Expliqué que termina cuando el rango se vuelve inválido
+5. **Formato más claro:** Estructuré la información paso a paso de manera más organizada
+
+Tu comprensión del algoritmo es correcta, solo necesitaba más precisión en los detalles técnicos.
+
+NO OLVIDAR: 
+- MEDIO = (inicio + fin) / 2
+- RANGO = [inicio, fin]
+- RANGO INVALIDO = inicio > fin
+- BUSCAR MITAD IZQUIERDA SI valor < vec[medio]
+- BUSCAR MITAD DERECHA SI valor > vec[medio]

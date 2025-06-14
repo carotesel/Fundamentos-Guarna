@@ -1,0 +1,22 @@
+cuatrimestre,materia,apellido_nombre,nota
+1,Física,Martinez Rosa,6
+1,Historia,Gomez Ana,7
+1,Matemática,Lopez Ana,9
+1,Matemática,Perez Juan,8
+1,Química,Ramirez Jorge,5
+1,Biología,Rodriguez Carla,7
+1,Filosofía,Diaz Manuel,4
+1,Literatura,Sosa Laura,10
+2,Biología,Torres Pablo,6
+2,Física,González Pedro,5
+2,Historia,Gomez Ana,8
+2,Química,Perez Juan,7
+2,Matemática,Lopez Ana,7
+2,Geografía,Ramirez Jorge,5
+2,Arte,Sosa Laura,10
+2,Inglés,Diaz Manuel,9
+3,Física,Torres Pablo,6
+3,Historia,González Pedro,4
+3,Filosofía,Rodriguez Carla,7
+3,Geografía,Diaz Manuel,8
+3,Química,Sosa Laura,10
